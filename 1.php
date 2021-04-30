@@ -15,6 +15,7 @@
 <p><input type="submit" value="送信する"></p>
 </form>
 
+<a href="2,php">戻る</a>
 </div>
 
 </body>
