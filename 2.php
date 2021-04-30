@@ -25,6 +25,9 @@ if (!empty($_POST['name'])) {
 <div>好きな食べ物</div>
 <input type="text" name="food">
 
+<div>好きな飲み物</div>
+<input type="text" name="drink">
+
 <input type="hidden" name="name" value="<?php echo $name; ?>">
 <input type="submit" value="送信する">
 </form>
