@@ -1,7 +1,7 @@
 <?php
 
-if (!empty($_POST['name']) && !empty($_POST['food'] $$ !empty($_POST['drink'])) {
-	$msg = "あなたは" . $_POST['name'] . "で、" . $_POST['food'] . $_POST['drink'] . "が好きなのですか？";
+if (!empty($_POST['name']) && !empty($_POST['food']) && !empty($_POST['drink'])) {
+	$msg = "あなたは" . $_POST['name'] . "で、" . $_POST['food'] . "と" . $_POST['drink'] . "が好きなのですか？";
 	$food = $_POST['name'];
 } else {
 	$msg = "好きな食べ物を入力してください";
